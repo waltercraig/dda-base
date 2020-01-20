@@ -1,0 +1,16 @@
+// Used to style Wordpress admin form
+
+.login {
+    background: #000;
+    h1 a {
+        background:url(../../assets/img/wp-login-form/dda_logo.jpg) no-repeat top;
+        width:326px;
+        height:67px;
+        text-indent:-9999px;
+        overflow:hidden;
+        padding-bottom:15px;
+        display:block;
+        background-size: contain;
+    }
+}
+
