@@ -13,9 +13,8 @@ get_header();?>
                 <div class="col-xs-12">
                 <?php
                     while ( have_posts() ) :
-                        the_title( '<h1 class="">', '</h1>' )
+                        the_title( '<h1 class="">', '</h1>' );
                         the_content();
-
                     endwhile; // End of the loop.
                 ?>
                 </div>
