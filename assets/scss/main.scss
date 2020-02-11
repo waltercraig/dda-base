@@ -2,7 +2,8 @@
 // Bootstrap
 // https://getbootstrap.com/docs/4.4/getting-started/theming/
 
-// Make your variable overrides below here
+// Make your variable overrides below here 
+// Some common overrides below for full list ov variables check bootstrap/_variables.scss
 $body-bg: #fff;
 $body-color: #111;
 
@@ -10,6 +11,30 @@ $theme-colors: (
   "primary": #0074d9,
   "danger": #ff4136
 );
+
+// Grid Breakpoints 
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px
+);
+
+// Container Breakpoints 
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px
+);
+
+// Grid Columns
+$grid-columns: 12 !default;
+$grid-gutter-width: 30px !default;
+$grid-row-columns: 6 !default;
+
+
 
 // Required Bootstrap
 @import "./bootstrap/functions";
