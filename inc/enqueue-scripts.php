@@ -64,6 +64,11 @@ require get_template_directory() . '/inc/admin.php';
 require get_template_directory() . '/inc/login.php';
 
 /**
+ * Add in some default pages
+ */
+require get_template_directory() . '/inc/starter-content.php';
+
+/**
  * Woocommerce.
  */
 // require get_template_directory() . '/inc/woo.php';
