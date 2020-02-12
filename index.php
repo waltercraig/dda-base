@@ -42,7 +42,7 @@ get_header();
 
 			endwhile;
 
-			the_posts_navigation();
+			 dda_page_navi(); 
 
 		else :
 

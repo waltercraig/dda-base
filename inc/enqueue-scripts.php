@@ -69,6 +69,11 @@ require get_template_directory() . '/inc/login.php';
 require get_template_directory() . '/inc/starter-content.php';
 
 /**
+ * Adds Numbered Pagination on post archive pages
+ */
+require get_template_directory() . '/inc/pagination.php';
+
+/**
  * Woocommerce.
  */
 // require get_template_directory() . '/inc/woo.php';

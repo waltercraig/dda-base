@@ -6,11 +6,7 @@
 // Some common overrides below for full list ov variables check bootstrap/_variables.scss
 $body-bg: #fff;
 $body-color: #111;
-
-$theme-colors: (
-  "primary": #0074d9,
-  "danger": #ff4136
-);
+$primary: #0074d9;
 
 // Grid Breakpoints 
 $grid-breakpoints: (
@@ -74,7 +70,7 @@ $footer-text-colour: $white;
 @import "./bootstrap/modal";
 @import "./bootstrap/nav";
 @import "./bootstrap/navbar";
-@import "./bootstrap/pagination";
+// @import "./bootstrap/pagination"; Wordpress outputs default html
 @import "./bootstrap/popover";
 @import "./bootstrap/print";
 @import "./bootstrap/progress";

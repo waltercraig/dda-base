@@ -21,3 +21,10 @@ function disable_default_dashboard_widgets() {
 }
 add_action('wp_dashboard_setup', 'disable_default_dashboard_widgets', 999);
 
+// Custom Backend Footer
+function dda_custom_admin_footer() {
+	_e('<span id="footer-thankyou">Developed by <a href="https://www.domaindesignagency.com/" target="_blank">Domain Design Agency</a></span>.', 'dda-base');
+}
+
+// adding it to the admin area
+add_filter('admin_footer_text', 'dda_custom_admin_footer');
