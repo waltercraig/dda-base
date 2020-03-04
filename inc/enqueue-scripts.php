@@ -74,12 +74,17 @@ require get_template_directory() . '/inc/starter-content.php';
 require get_template_directory() . '/inc/pagination.php';
 
 /**
+ * Saves post data to JSON
+ */
+require get_template_directory() . '/inc/export-post-data.php';
+
+/**
  * Woocommerce.
  */
 // require get_template_directory() . '/inc/woo.php';
 
 /**
- * Load Jetpack compatibility file.
+ * Load Jetpack compatibility file if active.
  */
 if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
