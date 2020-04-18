@@ -21,7 +21,7 @@ Navigate to your working folder and Download The latest version of Wordpress
 ```
 cd your-working-folder
 
-cul -O https:wordpress.org/latest.zip
+curl -O https:wordpress.org/latest.zip
 ```
 Unzip
 ```
